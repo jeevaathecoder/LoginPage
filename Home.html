@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+
+  <body>
+
+    <div class="main-page">
+
+      <div class="title">
+        <h1>Welcome to Udemy Online Learning Platrform</h1>
+        <p class="description"> "Online learning allows you to learn anything, anywhere, anytime."</p>
+      </div>
+
+
+      <div class="forms">
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number"
+              >Mobile Number:<span class="clue"></span></label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              
+              class="form-control"
+              placeholder="Mobile"
+            />
+          </div>
+          <div>
+            <div>
+                <p>
+                    Please Selecet the Course:
+                </p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select your course</option>
+                    <option value="student">Python</option>
+                    <option value="job">Java</option>
+                    <option value="learner">C </option>
+                    <option value="preferNo">C++</option>
+                    <option value="other">Other</option>
+                </select>
+
+            </div>
+            <div>
+                <p> Which Level of Course?</p>
+            </div>
+            <div class="checkbox-inputs">
+                <label for="checkbox">Beginner</label>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">InterMediate</label>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Advanced</label>
+                <input type="checkbox" id="checkbox">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn-submit">Submit</button>
+              </div>
+            </div> 
+      
+          
+      </div>
+
+
+    </div>
+
+    
+    <script  src="js/index.js"></script>
+  </body>
+</html>
